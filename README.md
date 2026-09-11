@@ -10,12 +10,13 @@ This project demonstrates the fundamentals of Generative AI and transformer-base
 Instead of training a language model from scratch, the project uses transfer learning to fine-tune GPT-2 so that its generated text follows the style, structure, and patterns present in the training data.
 
 🎯 Objectives
-Understand transformer-based text generation
-Work with a pre-trained GPT-2 model
-Prepare and tokenize a custom text dataset
-Fine-tune GPT-2 on domain-specific text
-Generate text from user-defined prompts
-Explore how training data influences generated content
+      Understand transformer-based text generation
+      Work with a pre-trained GPT-2 model
+      Prepare and tokenize a custom text dataset
+      Fine-tune GPT-2 on domain-specific text
+      Generate text from user-defined prompts
+      Explore how training data influences generated content
+
 ⚙️ Technologies Used
 Python
 GPT-2
@@ -25,6 +26,7 @@ NLP
 Generative AI
 Tokenization
 Model Fine-Tuning
+
 🔄 Project Workflow
 Custom Dataset
       ↓
@@ -43,6 +45,7 @@ User Prompt
 Text Generation
       ↓
 Generated Output
+
 🧠 How It Works
 1. Dataset Preparation
 
@@ -71,12 +74,13 @@ Artificial intelligence is transforming
 The model predicts and generates subsequent tokens to produce a complete text sequence.
 
 ✨ Key Features
-Pre-trained GPT-2 architecture
-Custom dataset fine-tuning
-Prompt-based text generation
-Transformer-based NLP
-Configurable text generation
-Context-aware text completion
+      Pre-trained GPT-2 architecture
+      Custom dataset fine-tuning
+      Prompt-based text generation
+      Transformer-based NLP
+      Configurable text generation
+      Context-aware text completion
+
 📂 Suggested Project Structure
 Task-01-GPT2-Text-Generation/
 │
@@ -94,12 +98,12 @@ Task-01-GPT2-Text-Generation/
 
 Clone the repository:
 
-git clone <YOUR-GITHUB-REPOSITORY-LINK>
-cd Task-01-GPT2-Text-Generation
+      git clone <YOUR-GITHUB-REPOSITORY-LINK>
+      cd Task-01-GPT2-Text-Generation
 
-Install the required libraries:
+      Install the required libraries:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Example requirements.txt:
 
@@ -107,11 +111,12 @@ torch
 transformers
 datasets
 accelerate
+
 ▶️ Running the Project
-Train the Model
-python train.py
-Generate Text
-python generate.py
+      Train the Model
+      python train.py
+      Generate Text
+      python generate.py
 
 Enter a prompt when requested and the fine-tuned GPT-2 model will generate the continuation.
 
@@ -133,18 +138,19 @@ Output will depend on the custom dataset and training configuration.
 Through this task, I gained practical understanding of:
 
 Transformer architecture
-GPT-2 language modeling
-NLP preprocessing
-Tokenization
-Transfer learning
-Fine-tuning pre-trained models
-Prompt-based generation
-Generative AI workflows
+      GPT-2 language modeling
+      NLP preprocessing
+      Tokenization
+      Transfer learning
+      Fine-tuning pre-trained models
+      Prompt-based generation
+      Generative AI workflows
+
 🔮 Future Improvements
-Experiment with larger datasets
-Compare different GPT-2 variants
-Optimize generation parameters
-Add a web-based interface using Streamlit
-Support multiple text-generation styles
-Evaluate generated text using automated NLP metrics
-Experiment with larger transformer models
+      Experiment with larger datasets
+      Compare different GPT-2 variants
+      Optimize generation parameters
+      Add a web-based interface using Streamlit
+      Support multiple text-generation styles
+      Evaluate generated text using automated NLP metrics
+      Experiment with larger transformer models
